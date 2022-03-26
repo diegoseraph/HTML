@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mais coisas sobre HTML</title>
+
+    <style>
+         .tabela th, .tabela td{
+            border: 1px solid black;
+            border-radius: 2px;
+            border-collapse: separate;
+        }
+        .tabela th, .tabela td {
+            background-color: rgb(159, 243, 215);
+        }
+    
+    </style>
+
 </head>
 <body>
     <p>Página: <a href="index.html">1</a> <a href="page2.html">2</a> <a href="#">3</a></p>
@@ -34,9 +47,66 @@
 
     <h1>Introdução ao HTML - Imagens</h1>
 
-    <img src="_img/image1.jpg" alt="" width="400px" height="500px">
-    <img src="_img/image2.jpg" alt="" width="400px" height="500px">
-    <img src="_img/image3.jpg" alt="" width="400px" height="500px">
+    <picture>
+        <img src="_img/image1.jpg" alt="" width="400px" height="500px">
+        <img src="_img/image2.jpg" alt="" width="400px" height="500px">
+        <img src="_img/image3.jpg" alt="" width="400px" height="500px">
+    </picture>
+    
+    <hr>
+
+    <h1>Introdução ao HTML - Tabelas</h1>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Alfredo</td>
+            <td>19</td>
+            <td>alfred3425@gmail.com</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>20</td>
+            <td>joseda123@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Almeida</td>
+            <td>24</td>
+            <td>almeida123412@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Bordas da Tabela</h2>
+
+    <table class="tabela">
+        <tr >
+            <th >Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Alfredo</td>
+            <td>19</td>
+            <td>alfred3425@gmail.com</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>20</td>
+            <td>joseda123@gmail.com</td>
+        </tr>
+        <tr>
+            <td> Almeida</td>
+            <td>24</td>
+            <td>almeida123412@gmail.com</td>
+        </tr>
+    </table>
+
+
+
 
 </body>
 </html>
